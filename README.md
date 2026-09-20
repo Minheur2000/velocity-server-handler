@@ -1,2 +1,2 @@
-# PotoFlux mod template
-An easy way to get a start for making PotoFlux mods
+# Velocity Handler
+Helps you by centralizing your server's consoles and action buttons

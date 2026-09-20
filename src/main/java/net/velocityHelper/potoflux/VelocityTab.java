@@ -1,10 +1,10 @@
-package your.packagename.tabs.all;
+package net.velocityHelper.potoflux;
 
 import javafx.scene.layout.VBox;
 import net.minheur.potoflux.screen.tabs.BaseVTab;
 import net.minheur.potoflux.translations.Translations;
 
-public class YourTabClass extends BaseVTab<VBox> {
+public class VelocityTab extends BaseVTab<VBox> {
     @Override
     protected void instantiate() {
         PANEL = new VBox();
