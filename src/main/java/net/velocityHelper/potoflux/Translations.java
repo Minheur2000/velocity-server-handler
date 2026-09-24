@@ -10,6 +10,9 @@ public class Translations extends AbstractTranslationsRegistry {
 
     @Override
     protected void makeTranslation() {
+        add("tab.name")
+                .en("Velocity")
+                .fr("Velocity");
     }
 
 }

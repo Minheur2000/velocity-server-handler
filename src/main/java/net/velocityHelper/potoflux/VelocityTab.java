@@ -12,16 +12,10 @@ public class VelocityTab extends BaseVTab<VBox> {
 
     @Override
     protected void setPanel() {
-        // add here content
-    }
-
-    @Override
-    protected String getTitle() {
-        return Translations.get("yourmodid:tabs.yourTab.title");
     }
 
     @Override
     public String getName() {
-        return Translations.get("yourmodid:tabs.yourTab.name");
+        return Translations.get("velocity_helper:tab.name");
     }
 }

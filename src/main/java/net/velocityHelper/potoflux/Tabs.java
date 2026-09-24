@@ -10,7 +10,6 @@ import net.velocityHelper.VelocityHelper;
 public class Tabs {
     private static final RegistryList<net.minheur.potoflux.screen.tabs.Tab> LIST = new RegistryList<>();
 
-    // example tab
     public static final SmartSupplier<net.minheur.potoflux.screen.tabs.Tab> TAB = LIST.add(() -> new Tab(new ResourceLocation(VelocityHelper.MOD_ID, "velocity"), VelocityTab.class));
 
     public static void register(RegisterTabsEvent event) {
